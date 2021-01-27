@@ -6,15 +6,17 @@
 
 try:
     from setuptools import setup
+    import setuptools
 except ImportError:
     from distutils.core import setup
-
+    import setuptools
+    
 import os.path
 
 
 setup(
     name='deethon',
-    version='10.3',
+    version='12.3',
     description='Python3 library to easily download music from Deezer',
     project_urls={
         "documentation": "https://deethon.github.io/deethon",
@@ -27,6 +29,7 @@ setup(
         'Development Status :: 3 - Alpha', 'Operating System :: OS Independent'
     ],
     python_requires='>=3.6',
+    packages=setuptools.find_packages(),
     install_requires=[
         'importlib-metadata',
         'mutagen', 'pycryptodome',
