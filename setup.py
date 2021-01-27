@@ -23,7 +23,6 @@ setup(
     name='deethon',
     version='0.4.3',
     description='Python3 library to easily download music from Deezer',
-    python_requires='==3.*,>=3.7.0',
     project_urls={
         "documentation": "https://deethon.github.io/deethon",
         "repository": "https://github.com/deethon/deethon"
