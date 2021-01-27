@@ -25,7 +25,7 @@ setup(
     description='Python3 library to easily download music from Deezer',
     project_urls={
         "documentation": "https://deethon.github.io/deethon",
-        "repository": "https://github.com/deethon/deethon"
+        "repository": "https://github.com/StarkGangZ/deethon"
     },
     author='Aykut Yilmaz',
     author_email='aykuxt@gmail.com',
