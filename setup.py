@@ -11,17 +11,10 @@ except ImportError:
 
 import os.path
 
-readme = ''
-here = os.path.abspath(os.path.dirname(__file__))
-readme_path = os.path.join(here, 'README.rst')
-if os.path.exists(readme_path):
-    with open(readme_path, 'rb') as stream:
-        readme = stream.read().decode('utf8')
 
 setup(
-    long_description=readme,
     name='deethon',
-    version='5.3',
+    version='10.3',
     description='Python3 library to easily download music from Deezer',
     project_urls={
         "documentation": "https://deethon.github.io/deethon",
